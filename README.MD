@@ -12,7 +12,11 @@
 
 ## Sobre o Projeto
 
-Este repositório contém o pipeline completo de Ciência de Dados desenvolvido para investigar a dinâmica de tráfego, o impacto climático e a severidade de sinistros no corredor da **Rodovia BR-116 (trecho Régis Bittencourt — SP/PR)**, utilizando bases públicas oficiais da **Polícia Rodoviária Federal (PRF)** e da **Agência Nacional de Transportes Terrestres (ANTT)** referentes ao ano-base de 2025.
+Este repositório contém o pipeline completo de Ciência de Dados desenvolvido para investigar a dinâmica de tráfego, o impacto climático e a severidade de sinistros no corredor da **Rodovia BR-116 (trecho Régis Bittencourt — SP/PR)**, utilizando bases públicas oficiais referentes ao ano-base de 2025.
+
+**Fontes de Dados (Datasets Utilizados):**
+* **Polícia Rodoviária Federal (PRF — Sinistros de Trânsito):** [Dados Abertos da PRF](https://www.gov.br/prf/pt-br/acesso-a-informacao/dados-abertos/dados-abertos-da-prf)
+* **Agência Nacional de Transportes Terrestres (ANTT — Volumetria de Pedágios):** [Volume de Tráfego por Praça de Pedágio](https://dados.antt.gov.br/dataset/volume-trafego-praca-pedagio/resource/9c0e9658-8b8c-4f63-8045-a07dbbde2f1e?inner_span=True)
 
 O objetivo central é responder como condições meteorológicas, horários do dia e características geométricas da via influenciam o fluxo de veículos, o tempo de deslocamento e a probabilidade de acidentes de alto impacto operacional, utilizando modelos de Machine Learning para antecipar cenários críticos e apoiar a tomada de decisão preventiva.
 
@@ -83,3 +87,4 @@ O fluxo analítico foi estruturado em 12 etapas reproduzíveis:
 * `*.ipynb` — Notebook principal executado com código comentado, análises estatísticas e visualizações interativas.
 * `dicionario_dados_br116.pdf` — Documentação técnica das variáveis utilizadas, tipos de dados, origens e unidades de medida.
 * `sintese_executiva_br116.pdf` — Resumo gerencial com a pergunta de negócio, resultados dos modelos, simulações e recomendações operacionais.
+````[cite: 12]
