@@ -87,4 +87,4 @@ O fluxo analítico foi estruturado em 12 etapas reproduzíveis:
 * `*.ipynb` — Notebook principal executado com código comentado, análises estatísticas e visualizações interativas.
 * `dicionario_dados_br116.pdf` — Documentação técnica das variáveis utilizadas, tipos de dados, origens e unidades de medida.
 * `sintese_executiva_br116.pdf` — Resumo gerencial com a pergunta de negócio, resultados dos modelos, simulações e recomendações operacionais.
-````[cite: 12]
+
